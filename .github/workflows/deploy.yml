@@ -25,16 +25,14 @@ jobs:
           node-version: 20
 
       - name: Install
-        run: |
-          cd quartz
-          npm install
+        working-directory: quartz
+        run: npm ci
 
       - name: Build
-        run: |
-          cd quartz
-          npx quartz build
+        working-directory: quartz
+        run: npx quartz build
 
-      - name: Upload
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: quartz/public
@@ -46,6 +44,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
