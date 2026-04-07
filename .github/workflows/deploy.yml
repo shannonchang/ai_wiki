@@ -25,11 +25,11 @@ jobs:
           node-version: 20
 
       - name: Install
-        working-directory: quartz
+        #working-directory: quartz
         run: npm ci
 
       - name: Build
-        working-directory: quartz
+        #working-directory: quartz
         run: npx quartz build
 
       - name: Upload artifact
