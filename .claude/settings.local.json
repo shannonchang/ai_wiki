@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-Content 'd:\\\\prj\\\\ai wiki\\\\system\\\\CLAUDE.md' -Raw\")",
+      "Bash(powershell -Command \"Get-Content 'd:\\\\prj\\\\ai wiki\\\\README.md' -Raw; Write-Host '==='; Get-Content 'd:\\\\prj\\\\ai wiki\\\\歡迎.md' -Raw\")",
+      "Bash(powershell -Command \"Get-ChildItem 'd:\\\\prj\\\\ai wiki' -Recurse | Select-Object FullName, Length\")"
+    ]
+  }
+}
