@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Amway（安麗）</title>
+    <link>https://quartz.jzhao.xyz/Amway</link>
+    <guid>https://quartz.jzhao.xyz/Amway</guid>
+    <description><![CDATA[ 摘要（Summary） Amway（安麗）是全球最大的直銷公司之一，總部位於美國密西根州。旗下核心品牌包括 Nutrilite（營養補充品）與 Artistry（美妝保養）。近年 Amway 正進行明確的策略轉型：從傳統「多層次直銷公司」轉型為「健康科技平台」，以科學研發、個人化健康方案與數位化工具為核心競爭力。2024 年營收約 74 億美元，業務遍及 100+ 個國家，亞洲市場為主要收入來源。 概念（Concepts） IBO（Independent Business Owner）：Amway 的直銷商稱為 IBO，可透過銷售產品與發展下線賺取收入 Nutrilite：Amway 最大的產... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Amway 2025 Global Impact Report 重點整理</title>
+    <link>https://quartz.jzhao.xyz/Amway_2025_Impact_Report</link>
+    <guid>https://quartz.jzhao.xyz/Amway_2025_Impact_Report</guid>
+    <description><![CDATA[ 摘要（Summary） Amway（安麗）2025 Global Impact Report 揭示一個清晰的戰略轉型：從傳統「直銷公司」轉型為「健康科技平台」。財務面 2024 年營收約 74 億美元（年減 3%），但核心產品 Nutrilite（營養品）逆勢成長 2%，佔整體營收 64%。報告暗示 直銷模式的去直銷化趨勢：IBO（獨立直銷商）的角色正從「人際招募」轉向「品牌 + 科學 + 社群」。亞洲市場持續為主要成長動力，ESG 策略則同時服務品牌信任與合規需求。 概念（Concepts） 健康科技平台化：從「賣產品」→「賣健康解決方案」，以個人化健康方案、R&amp;D 科學背書為核心 ... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Embedding（文字向量化）</title>
+    <link>https://quartz.jzhao.xyz/Embedding</link>
+    <guid>https://quartz.jzhao.xyz/Embedding</guid>
+    <description><![CDATA[ 摘要（Summary） Embedding（嵌入）是將離散的符號（如文字、詞彙）轉換為連續的稠密向量（Dense Vector）的技術。透過 Embedding 模型，語意相近的文字在向量空間中的距離也會相近，使得機器能夠理解語意相似性。在 RAG 流程中，Embedding 是將文件片段與用戶查詢轉為向量的關鍵步驟，向量化後的資料才能儲存至 Vector_Database 並進行相似度搜尋。 概念（Concepts） 稠密向量（Dense Vector）：每個維度都有數值的向量表示，維度通常為 768~4096 語意空間（Semantic Space）：向量空間中，語意相近的詞彙/句子在幾何... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>知識圖（Knowledge Graph）</title>
+    <link>https://quartz.jzhao.xyz/Knowledge_Graph</link>
+    <guid>https://quartz.jzhao.xyz/Knowledge_Graph</guid>
+    <description><![CDATA[ 摘要（Summary） 知識圖（Knowledge Graph）是以節點（Node）與邊（Edge）構成的圖狀資料結構，用來表示現實世界中實體及其相互關係。每個節點代表一個概念或實體，邊代表兩者間的關係。在 LLM_Wiki 架構中，知識圖透過 Markdown 的 [[...]] 雙向連結實作，並可使用 Obsidian 等工具進行視覺化，讓使用者直觀地瀏覽概念間的關聯網絡。 概念（Concepts） 節點（Node）：圖中的基本單位，代表一個知識概念或實體 邊（Edge）：連接兩個節點的關係，在 LLM Wiki 中以 [[...]] 連結表示 雙向連結（Bidirectional Lin... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>LLM Wiki（LLM 驅動知識庫）</title>
+    <link>https://quartz.jzhao.xyz/LLM_Wiki</link>
+    <guid>https://quartz.jzhao.xyz/LLM_Wiki</guid>
+    <description><![CDATA[ 摘要（Summary） LLM Wiki 是一種利用大型語言模型（LLM）將原始文件自動轉換為結構化知識庫的方法。知識庫通常以 Markdown 格式組織，每個概念為獨立節點，節點間以雙向連結（[[...]]）相互關聯，形成可視化的知識圖。相較於 RAG 的動態檢索架構，LLM Wiki 採用靜態預整理方式，知識結構清晰，易於人工審閱與編輯，適合管理組織的核心知識體系。 概念（Concepts） 節點（Node）：知識庫中的最小單位，每個 Markdown 檔案代表一個知識節點 雙向連結（Bidirectional Link）：[[節點名稱]] 語法，A 連結 B 同時 B 也需回指 A，確保... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>LLM Wiki 與 RAG 的差異分析</title>
+    <link>https://quartz.jzhao.xyz/LLM_Wiki_vs_RAG</link>
+    <guid>https://quartz.jzhao.xyz/LLM_Wiki_vs_RAG</guid>
+    <description><![CDATA[ 摘要（Summary） 隨著大型語言模型（LLM）的發展，企業開始探索不同的知識管理方法。RAG（檢索增強生成）與 LLM_Wiki 是兩種主要方案：RAG 依賴向量資料庫與即時檢索，將文件切分後動態組合答案；LLM Wiki 則透過預先整理知識、建立知識圖與雙向連結，提供結構化的靜態知識庫。兩者並非互斥，最佳實踐是結合兩者優勢：以 LLM Wiki 管理核心知識，以 RAG 處理即時或大量資料。 概念（Concepts） RAG（檢索增強生成）：結合檢索系統與 LLM 的架構，先從文件庫中找出相關片段，再由 LLM 生成答案 LLM Wiki：利用 LLM 將原始文件轉為結構化 Markdo... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Nutrilite（紐崔萊）</title>
+    <link>https://quartz.jzhao.xyz/Nutrilite</link>
+    <guid>https://quartz.jzhao.xyz/Nutrilite</guid>
+    <description><![CDATA[ 摘要（Summary） Nutrilite（紐崔萊）是 Amway 旗下最核心的產品品牌，專注於天然來源的維生素、礦物質與草本營養補充品，是全球銷售量最高的天然來源維生素品牌。在 2024 年 Amway 整體營收小幅下滑的背景下，Nutrilite 逆勢成長 2%，佔集團總營收 64%，是 Amway 策略轉型的核心支柱。Nutrilite 正從單純產品演化為健康教育平台與長期訂閱模式的入口。 概念（Concepts） 天然來源（Plant-based）：Nutrilite 的核心定位，強調原料來自自有農場的植物萃取 健康教育入口：不只賣產品，而是提供健康知識、個人化方案，增加用戶黏著度 長... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>RAG（檢索增強生成）</title>
+    <link>https://quartz.jzhao.xyz/RAG</link>
+    <guid>https://quartz.jzhao.xyz/RAG</guid>
+    <description><![CDATA[ 摘要（Summary） RAG（Retrieval-Augmented Generation，檢索增強生成）是一種結合資訊檢索系統與大型語言模型的架構。其核心思想是：在生成答案前，先從外部文件庫中動態檢索出最相關的片段，再將這些片段作為上下文提供給 LLM 生成最終答案。RAG 特別適合需要處理即時資料或大量文件的場景，但因文件被切分為獨立片段，容易導致知識碎片化，缺乏全局理解能力。 概念（Concepts） Chunks（文件片段）：原始文件被切分為多個較小的單位，是 RAG 處理的基本單元 Embedding（向量嵌入）：使用 Embedding 模型將文字轉換為稠密向量，捕捉語意資訊 V... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>向量資料庫（Vector Database）</title>
+    <link>https://quartz.jzhao.xyz/Vector_Database</link>
+    <guid>https://quartz.jzhao.xyz/Vector_Database</guid>
+    <description><![CDATA[ 摘要（Summary） 向量資料庫（Vector Database）是一種專門儲存和查詢向量（高維度數值陣列）的資料庫系統。在 NLP 和 AI 應用中，文字、圖像等非結構化資料會先透過 Embedding 模型轉換為向量，再儲存至向量資料庫。查詢時，系統計算查詢向量與儲存向量間的相似度（通常使用餘弦相似度或歐氏距離），找出最相近的結果。向量資料庫是 RAG 架構中不可或缺的核心元件。 概念（Concepts） 向量（Vector）：以高維度數值陣列表示的資料，每個維度捕捉一種語意特徵 Embedding：將文字轉換為向量的模型與過程 相似度搜尋（Similarity Search）：在向量空... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>直銷模式轉型（去直銷化趨勢）</title>
+    <link>https://quartz.jzhao.xyz/%E7%9B%B4%E9%8A%B7%E6%A8%A1%E5%BC%8F%E8%BD%89%E5%9E%8B</link>
+    <guid>https://quartz.jzhao.xyz/%E7%9B%B4%E9%8A%B7%E6%A8%A1%E5%BC%8F%E8%BD%89%E5%9E%8B</guid>
+    <description><![CDATA[ 摘要（Summary） 「去直銷化（De-MLM）」是指傳統多層次直銷（MLM）公司逐漸調整商業模式，降低對人海招募與組織規模的依賴，轉而強調產品力、品牌信任、科學背書與社群內容。Amway 的 2025 年報告是這一趨勢的具體案例：IBO（獨立直銷商）的敘事從「創業機會」轉向「產品 + 科學 + 品牌」。未來的競爭力不再取決於下線人數，而是誰能在健康領域建立個人品牌與內容影響力。 概念（Concepts） MLM（多層次行銷）：傳統直銷模式，參與者同時銷售產品與招募下線，收入來源包含組織層級分潤 去直銷化（De-MLM）：向品牌導向轉型，弱化招募敘事，強化產品本身的市場競爭力 IBO（獨立直... ]]></description>
+    <pubDate>Mon, 06 Apr 2026 16:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
